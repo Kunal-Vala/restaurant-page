@@ -184,3 +184,51 @@ body {
   color: #a52a2a;
   margin-top: 5px;
 }
+
+
+/* ************************************************* */
+
+
+.contact-container {
+  background-color: #FFF2EB;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid burlywood;
+  margin-bottom: 20px;
+}
+
+.contact-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 2px solid #e3c6b8;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
+}
+
+.contact-card h3 {
+  margin-bottom: 5px;
+  color: #3B3B1A;
+}
+
+.contact-card p {
+  font-size: 0.95rem;
+  margin: 2px 0;
+}

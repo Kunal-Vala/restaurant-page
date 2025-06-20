@@ -1,5 +1,6 @@
 import { loadHome } from './home-page.js';
 import {loadMenu} from './menu-page.js'
+import { loadContact } from './contact-us-page.js';
 import "./style.css";
 
 
@@ -17,7 +18,7 @@ function pages() {
             
             if(tab === 'Home') loadHome();
             if (tab === 'Menu') loadMenu();
-            if (tab === 'Contact Us') loadAbout();
+            if (tab === 'Contact Us') loadContact();
         });
     });
 }
