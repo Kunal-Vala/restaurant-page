@@ -30,12 +30,12 @@ body {
     min-height: 100vh;
     background-image: url(./background\ image.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     background-position: center;
     background-color: var(--color-brownish, rgba(151, 76, 76, 0.6));
 }
 
-.header {}
+
 
 #content {
     margin: auto;
@@ -134,4 +134,53 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: var(--text-medium);
+}
+
+
+
+/* *********************************************************************************** */
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 20px;
+}
+
+.menu-heading {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #3B3B1A;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menu-card {
+  background-color: #fff7f0;
+  border: 2px solid burlywood;
+  border-radius: 12px;
+  width: 200px;
+  padding: 10px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.menu-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-price {
+  font-weight: bold;
+  color: #a52a2a;
+  margin-top: 5px;
 }
