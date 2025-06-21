@@ -2,7 +2,9 @@ import { loadHome } from './home-page.js';
 import {loadMenu} from './menu-page.js'
 import { loadContact } from './contact-us-page.js';
 import "./style.css";
+import buttonSoundFile from './sound.mp3';
 
+const buttonSound = new Audio(buttonSoundFile);
 
 
 function pages() {
@@ -12,7 +14,7 @@ function pages() {
         button.addEventListener('click', (e) => {
             
             const tab = e.target.textContent;
-            
+            buttonSound.play();
             const content = document.getElementById('content');
             content.innerHTML = '';
             
